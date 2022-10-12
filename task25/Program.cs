@@ -2,16 +2,11 @@
 3, 5 -> 243 (3⁵)
 2, 4 -> 16*/
 Console.Clear();
-int a, b;
-Vvod( out a, out b);
-Result(a, b);
-void Vvod( out int A, out int B)
-{
-    Console.Write("Введите число А: ");
-    A = int.Parse(Console.ReadLine()!);
-     Console.Write("Введите число B: ");
-    B = int.Parse(Console.ReadLine()!);
-}
+Console.Write("Введите число А: ");
+int A = int.Parse(Console.ReadLine()!);
+Console.Write("Введите число B: ");
+int B = int.Parse(Console.ReadLine()!);
+Result(A, B);
 void Result(int A, int B)
 {
     int res = A;
