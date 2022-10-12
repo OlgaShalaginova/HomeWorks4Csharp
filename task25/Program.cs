@@ -3,9 +3,9 @@
 2, 4 -> 16*/
 Console.Clear();
 Console.Write("Введите число А: ");
-int A = int.Parse(Console.ReadLine()!);
+int A = Convert.ToInt32(Console.ReadLine()!);
 Console.Write("Введите число B: ");
-int B = int.Parse(Console.ReadLine()!);
+int B = Convert.ToInt32(Console.ReadLine()!);
 Result(A, B);
 void Result(int A, int B)
 {
