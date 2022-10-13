@@ -5,8 +5,9 @@
 Console.Clear();
 Console.Write("Введите число: ");
 int n = Convert.ToInt32(Console.ReadLine());
-result(n);
-void result(int n)
+Result(n);
+
+void Result(int n)
 {
     int res = 0;
     while(n/10 != 0)
